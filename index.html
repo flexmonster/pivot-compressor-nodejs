@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<script type="text/javascript" src="node_modules/flexmonster/flexmonster.js"></script>
+</head>
+<body>
+
+	<div id="pivot"></div>
+	<script type="text/javascript">
+		new Flexmonster({
+			container: "#pivot",
+			componentFolder: "node_modules/flexmonster/",
+			report: {
+				dataSource: {
+					dataSourceType: "ocsv",
+					filename: "/data"
+				}
+			}
+		})
+	</script>
+</body>
+</html>
