@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Demo</title>
-	<script type="text/javascript" src="node_modules/flexmonster/flexmonster.js"></script>
+	<link href="https://cdn.flexmonster.com/flexmonster.min.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="https://cdn.flexmonster.com/flexmonster.js"></script>
 </head>
 <body>
 
@@ -10,11 +11,11 @@
 	<script type="text/javascript">
 		new Flexmonster({
 			container: "#pivot",
-			componentFolder: "node_modules/flexmonster/",
+			componentFolder: "https://cdn.flexmonster.com/",
 			report: {
 				dataSource: {
 					dataSourceType: "ocsv",
-					filename: "/data"
+					filename: "/csv"
 				}
 			}
 		})
