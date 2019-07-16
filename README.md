@@ -1,8 +1,8 @@
-# Connect to MongoDB, JSON, CSV with Flexmonster Pivot Table Component
-[![Flexmonster Pivot table component](https://s3.amazonaws.com/flexmonster/github/fm-github-cover.png)](http://flexmonster.com)
+# Connect to MongoDB, JSON, CSV with Flexmonster Pivot Table & Charts
+[![Flexmonster Pivot Table & Charts](https://s3.amazonaws.com/flexmonster/github/fm-github-cover.png)](http://flexmonster.com)
 Website: www.flexmonster.com
 
-This repository holds the example of connecting to MongoDB, JSON, CSV with Flexmonster Pivot Table Component.
+This repository holds the example of connecting to MongoDB, JSON, CSV with Flexmonster Pivot Table & Charts.
 
 ## Prerequisites
 
@@ -17,5 +17,5 @@ npm install
 npm start
 ```
 
-Refer to [Connecting to database with Node.js ](https://www.flexmonster.com/doc/connecting-to-database-with-node-js/) tutorial to learn more details.
+Refer to [Connecting to database with Node.js](https://www.flexmonster.com/doc/connecting-to-database-with-node-js/) tutorial to learn more details.
 
